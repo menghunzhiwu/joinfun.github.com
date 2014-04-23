@@ -9,7 +9,7 @@ Devchen.com出生记
 ---------------
 先走走流水账：
 
-1、godaddy：申请[http://devchen.com]。
+1、godaddy：申请(http://devchen.com)。
 
 2、dnspods：将域名解析重担从墙外godaddy搬到国内的dnspod。
 
