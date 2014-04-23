@@ -9,17 +9,17 @@ Devchen.com出生记
 ---------------
 先走走流水账：
 
-1、godaddy：申请devchen.com。
+1、godaddy：申请http://devchen.com。
 
 2、dnspods：将域名解析重担从墙外godaddy搬到国内的dnspod。
 
-3、github：fork仓库beiyuu.github.com,并修改为自己的仓库joinfun.github.com。（Thanks,beiyuu.第一次至少10分钟后生效）
+3、github：fork仓库http://yonsm.github.com,并修改为自己的仓库http://joinfun.github.com。（Thanks,Yonsm.第一次至少10分钟后生效）
 
-4、joinfun.github.com：添加/修改CNAME文件内容为devchen.com。
+4、joinfun.github.com：添加/修改CNAME文件内容为http://devchen.com。
 
 5、dnspod：添加A记录，记录值为github最新IP。
 
-6、浏览器：devchen.com测试，顺利出生，welcome girl！
+6、浏览器：http://devchen.com测试，顺利出生，welcome girl！
 
 统计：使用了godaddy, dnspod, github.
 
