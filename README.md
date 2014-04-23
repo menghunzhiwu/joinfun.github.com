@@ -1,25 +1,25 @@
-[Yonsm.NET](http://www.yonsm.net) 的博客
+[Devchen.com](http://www.devchen.com) 的博客
 
-本博客运行于 [Jekyll](http://jekyllrb.com) @ [GitHub](http://github.com/Yonsm/NET)，博客模板修改自 [WebFrog](http://webfrogs.me/) 的博客。本博客模板已经全部通用化，使用极其简单。
+本博客运行于 [Jekyll](http://jekyllrb.com) @ [GitHub](http://github.com/joinfun/joinfun.github.com)，博客模板修改自 [Yonsm](http://Yonsm.NET/) 的博客。
 
 
 ## 安装
 
-1. [Fork](https://github.com/Yonsm/NET/fork) [http://github.com/Yonsm/NET](http://github.com/Yonsm/NET)。
+1. [Fork](https://github.com/joinfun/joinfun.github.com/fork) [http://github.com/joinfun/joinfun.github.com](http://github.com/joinfun/joinfun.github.com)。
 
 2. 所有个人相关的配置都在 _config.yml 中，修改其中内容：
   * markdown: rdiscount ***（建议不修改）***
   * permalink: /:title/ ***固定链接（建议别修改）***
-	* url: http://yonsm.net ***网站链接***
-	* name: Yonsm.NET ***网站名***
-	* author: Yonsm ***作者***
-	* qq: 123018 ***用于关于页面的QQ号(可选)***
-	* email: Yonsm@msn.com ***电子邮件***
-	* duoshuo: yonsm ***多说评论帐号***
-	* beian:  浙ICP备12026616号 ***备案号(可选)***
-	* cnzz: 119959 ***站长统计(可选)***
-	* weibo: 1885061391 ***用于关于页面微博帐号***
-	* github: Yonsm ***GitHub帐号***
+	* url: http://devchen.com ***网站链接***
+	* name: Devchen.com ***网站名***
+	* author: Devchen ***作者***
+	* qq: 1129426062 ***用于关于页面的QQ号(可选)***
+	* email: joinfun@foxmail.com ***电子邮件***
+	* duoshuo: Devchen ***多说评论帐号***
+	* beian:  taplate  ***备案号(可选)***
+	* cnzz:  taplate***站长统计(可选)***
+	* weibo: taplate ***用于关于页面微博帐号***
+	* github: Joinfun ***GitHub帐号***
 	* pygments: true ***语法高亮（建议不修改）***
 	* safe: true ***安全模式（建议不修改）***
 	* paginate: 20 ***首页分页***
@@ -49,6 +49,6 @@
 * 点击 Powered by 里面的 **Po** 撰写新文章；点击 **ed** 编辑当前页面。
 * 虽然可以用在线的编辑器来编辑和发布文章，但为了批量修改方便，还是推荐 Check Out 后修改。
 
-Yonsm
+Devchen
 
-2013-07-17
+2014-04-23
