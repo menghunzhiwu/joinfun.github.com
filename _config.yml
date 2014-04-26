@@ -1,7 +1,7 @@
 markdown: rdiscount
-permalink: /:year/:month/:day/:title.html #博文的固定链接
-paginate: 20				  #分页时每页博文数量
-author: Devchen				  #自定义常量
+permalink: /:year/:month/:day/:title.html/  #博文的固定链接
+paginate: 20				    #分页时每页博文数量
+author: Devchen				    #自定义常量
   name: Devchen.com
   email: joinfun@foxmail.com
   url: http://devchen.com
