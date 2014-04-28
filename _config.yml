@@ -13,4 +13,4 @@ github: Joinfun
 pygments: true
 safe: true
 paginate: 10				#分页时每页博文数量
-about: "这里是 Devchen 的个人博客，创建于 2014 年。使用基于 Jekyllekyll @ GitHub 的 Yonsm 模板。
+about: "这里是 Devchen 的个人博客，创建于 2014 年。使用基于 Jekyllekyll @ GitHub 的 Yonsm 模板。<br />
