@@ -1,8 +1,8 @@
 ---
-date: 2014-04-21 14:46+00:00
+date: 2014-04-29 11:56+00:00
 layout: post
 title: How to be a master
-categories: 日志
+categories: 过去
 tags: 折腾
 ---
 大师？
