@@ -1,11 +1,12 @@
 ---
-date: 2014-4-29 11:56:03+00:00
+date: 2014-04-21 14:46+00:00
 layout: post
-title: 把时间放在有意义的项目或事情上
-categories: 过去
-tags:折腾，大师
+title: How to be a master
+categories: 日志
+tags: 折腾
 ---
-### 大师？
+大师？
+----------
 说明：Markdown练习文档，莫当真。
 
 ## 一、什么是大师？
