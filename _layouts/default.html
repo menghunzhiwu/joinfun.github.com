@@ -8,7 +8,32 @@
     <link href="/feed/" rel="alternate" title="{{ site.author }}" type="application/atom+xml" />
     <link rel="stylesheet" href="/media/css/style.css" />
     <link rel="stylesheet" href="/media/css/highlight.css" />
-    <script type="text/javascript" src="/media/js/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="/media/js/jquery-1.7.1.min.js">
+    function setTimeSpan(){
+    	var date = new Date();
+    	timeSpan.innerText=date.format('yyyy-MM-dd hh:mm:ss');
+    }
+    
+    Date.prototype.format = function(format)
+		{
+    var o =
+    	{
+    	    "M+" : this.getMonth()+1, //month
+    	    "d+" : this.getDate(),    //day
+    	    "h+" : this.getHours(),   //hour
+    	    "m+" : this.getMinutes(), //minute
+    	    "s+" : this.getSeconds(), //second
+    	    "q+" : Math.floor((this.getMonth()+3)/3),  //quarter
+    	    "S" : this.getMilliseconds() //millisecond
+    	}
+    	if(/(y+)/.test(format))
+    	format=format.replace(RegExp.$1,(this.getFullYear()+"").substr(4 - RegExp.$1.length));
+    	for(var k in o)
+    	if(new RegExp("("+ k +")").test(format))
+    	format = format.replace(RegExp.$1,RegExp.$1.length==1 ? o[k] : ("00"+ o[k]).substr((""+ o[k]).length));
+    	return format;
+		}
+	</script>
   </head>
   <body>
     <div id="container">
@@ -17,12 +42,12 @@
         <h1>{{ page.title }}</h1>
         </header>
         <nav>
-        <span><a title="网站首页" class="" href="/">首页</a></span>
-        <span><a title="文章分类" class="" href="/categories/">分类</a></span>
-        <span><a title="标签索引" class="" href="/tags/">标签</a></span>
+        <span><a title="网站首页" class="" href="/">Home</a></span>
+        <span><a title="文章分类" class="" href="/categories/">Categories</a></span>
+        <span><a title="标签索引" class="" href="/tags/">Tags</a></span>
         <!--<span><a title="友情链接" class="" href="/links/">链接</a></span>-->
-        <span><a title="留言交流" class="" href="/guestbook/">留言</a></span>
-        <span><a title="关于站长" class="" href="/about/">关于</a></span>
+        <span><a title="留言交流" class="" href="/guestbook/">Guestbook</a></span>
+        <span><a title="关于站长" class="" href="/about/">About</a></span>
         <!--<span><a title="种子订阅" class="" href="/feed/" target="_blank">订阅</a></span>-->
         </nav>
         <article class="content">
@@ -31,12 +56,12 @@
       </div>
 
     <footer>
-        <p><small>
-            Powered by <a href="http://jekyllrb.com" target="_blank">Jekyll</a> @ <a href="http://github.com/{{ site.github }}/joinfun.github.com" target="_blank" title="项目主页">GitHub</a>
+        <p><small>Powered by <a href="http://jekyllrb.com" target="_blank">Jekyll</a> & <a href="http://github.com/{{ site.github }}/joinfun.github.com" target="_blank" title="项目主页">GitHub</a>
              | <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/cn/" target="_blank" title="许可协议">©</a> 2004 - {{site.time | date:"%Y"}} <a href="/about/">{{ site.author }}</a>
 {% if site.cnzz %}
              | <script src="http://v1.cnzz.com/z_stat.php?id={{ site.cnzz }}&web_id={{ site.cnzz }}" language="JavaScript"></script>
 {% endif %}
+			 | <span class="label label-info" id="timeSpan"></span>
          </small></p>
     </footer>
 

@@ -1,6 +1,6 @@
 markdown: rdiscount
 permalink: /:title/  			#博文的固定链接
-url: http://devchen.com
+url: http://joinfun.github.com
 name: Devchen.com
 author: Devchen	
 qq: 1129426062
